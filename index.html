@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Mitra - Your Complete Career Growth Platform</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="flex min-h-screen flex-col">
+    <header class="sticky top-0 z-40 border-b bg-background">
+      <div class="container flex h-16 items-center justify-between py-4">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-chart-line text-primary"></i>
+          <span class="text-xl font-bold">Job Mitra</span>
+        </div>
+        <nav class="hidden md:flex gap-6">
+          <a href="#" class="text-sm font-medium transition-colors hover:text-primary">Home</a>
+          <a href="#services" class="text-sm font-medium transition-colors hover:text-primary">Services</a>
+          <a href="#features" class="text-sm font-medium transition-colors hover:text-primary">Features</a>
+          <a href="#testimonials" class="text-sm font-medium transition-colors hover:text-primary">Testimonials</a>
+        </nav>
+        <div class="mobile-menu-button md:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+        <div class="container px-4 md:px-6">
+          <div class="grid gap-6 lg:grid-cols-2 lg:gap-12">
+            <div class="flex flex-col justify-center space-y-4">
+              <div class="space-y-2">
+                <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">
+                  Your Complete Career Growth Platform
+                </h1>
+                <p class="max-w-[600px] text-muted-foreground md:text-xl">
+                  Job Mitra brings together resume analysis, skill development, and job opportunities in one
+                  integrated platform.
+                </p>
+              </div>
+              <div class="flex flex-col gap-2 min-[400px]:flex-row">
+                <a href="#services" class="button primary w-full min-[400px]:w-auto">
+                  Explore Services
+                  <i class="fa-solid fa-chevron-right ml-2"></i>
+                </a>
+                <a href="#" class="button outline w-full min-[400px]:w-auto">
+                  Learn More
+                </a>
+              </div>
+            </div>
+            <img
+              src="https://placehold.co/550x550"
+              alt="Job Mitra Platform"
+              class="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:aspect-square"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
+              <p class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Comprehensive tools to help you advance your career journey from resume building to landing your dream
+                job.
+              </p>
+            </div>
+          </div>
+          <div class="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-3">
+            <div class="card flex flex-col items-center text-center h-full">
+              <div class="card-header">
+                <div class="flex h-20 w-20 items-center justify-center rounded-full bg-primary-light mb-4">
+                  <i class="fa-solid fa-file-lines text-primary fa-2x"></i>
+                </div>
+                <h3 class="card-title">Gururdev</h3>
+                <p class="card-description">Resume Analyzer</p>
+              </div>
+              <div class="card-content flex-1">
+                <p class="text-muted-foreground">
+                  Get expert analysis and feedback on your resume to stand out to employers and increase your chances
+                  of landing interviews.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button class="button primary w-full">Analyze Resume</button>
+              </div>
+            </div>
+
+            <div class="card flex flex-col items-center text-center h-full">
+              <div class="card-header">
+                <div class="flex h-20 w-20 items-center justify-center rounded-full bg-primary-light mb-4">
+                  <i class="fa-solid fa-book-open text-primary fa-2x"></i>
+                </div>
+                <h3 class="card-title">Skill Sarthi</h3>
+                <p class="card-description">Upskilling Platform</p>
+              </div>
+              <div class="card-content flex-1">
+                <p class="text-muted-foreground">
+                  Access high-quality courses from industry experts and creators to develop in-demand skills and
+                  advance your career.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button class="button primary w-full">Explore Courses</button>
+              </div>
+            </div>
+
+            <div class="card flex flex-col items-center text-center h-full">
+              <div class="card-header">
+                <div class="flex h-20 w-20 items-center justify-center rounded-full bg-primary-light mb-4">
+                  <i class="fa-solid fa-briefcase text-primary fa-2x"></i>
+                </div>
+                <h3 class="card-title">Karya Setu</h3>
+                <p class="card-description">Job Portal</p>
+              </div>
+              <div class="card-content flex-1">
+                <p class="text-muted-foreground">
+                  Find and apply to job opportunities that match your skills and career goals with our curated job
+                  listings.
+                </p>
+              </div>
+              <div class="card-footer">
+                <button class="button primary w-full">Find Jobs</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Why Choose Job Mitra</h2>
+              <p class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Our integrated approach helps you navigate every step of your career journey.
+              </p>
+            </div>
+          </div>
+          <div class="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-award text-primary"></i>
+              </div>
+              <h3 class="text-xl font-bold">Expert Guidance</h3>
+              <p class="text-center text-muted-foreground">
+                Get personalized feedback and recommendations from industry professionals.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-chart-line text-primary"></i>
+              </div>
+              <h3 class="text-xl font-bold">Skill Development</h3>
+              <p class="text-center text-muted-foreground">
+                Access courses and resources tailored to in-demand skills in your industry.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-users text-primary"></i>
+              </div>
+              <h3 class="text-xl font-bold">Community Support</h3>
+              <p class="text-center text-muted-foreground">
+                Connect with peers and mentors to share experiences and advice.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-briefcase text-primary"></i>
+              </div>
+              <h3 class="text-xl font-bold">Job Matching</h3>
+              <p class="text-center text-muted-foreground">
+                Our AI matches your profile with suitable job opportunities.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-file-lines text-primary"></i>
+              </div>
+              <h3 class="text-xl font-bold">Resume Builder</h3>
+              <p class="text-center text-muted-foreground">
+                Create professional resumes that highlight your strengths and experience.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fa-solid fa-book-open text-primary"></i>
+              </div>
+              <h3 class="text-xl font-bold">Learning Paths</h3>
+              <p class="text-center text-muted-foreground">
+                Follow structured learning paths designed for your career goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Success Stories</h2>
+              <p class="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Hear from users who have transformed their careers with Job Mitra.
+              </p>
+            </div>
+          </div>
+          <div class="mx-auto grid max-w-5xl items-center gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="flex items-center gap-4">
+                  <img
+                    src="https://placehold.co/40x40"
+                    alt="User"
+                    class="rounded-full"
+                  />
+                  <div>
+                    <h4 class="testimonial-name">Priya Sharma</h4>
+                    <p class="testimonial-role">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-content">
+                <p class="text-muted-foreground">
+                  "Gururdev helped me refine my resume, and within two weeks I received interview calls from top tech
+                  companies."
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="flex items-center gap-4">
+                  <img
+                    src="https://placehold.co/40x40"
+                    alt="User"
+                    class="rounded-full"
+                  />
+                  <div>
+                    <h4 class="testimonial-name">Rahul Patel</h4>
+                    <p class="testimonial-role">Data Analyst</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-content">
+                <p class="text-muted-foreground">
+                  "The courses on Skill Sarthi helped me transition from a non-technical role to a data analyst
+                  position in just 6 months."
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-header">
+                <div class="flex items-center gap-4">
+                  <img
+                    src="https://placehold.co/40x40"
+                    alt="User"
+                    class="rounded-full"
+                  />
+                  <div>
+                    <h4 class="testimonial-name">Ananya Gupta</h4>
+                    <p class="testimonial-role">Marketing Manager</p>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-content">
+                <p class="text-muted-foreground">
+                  "I found my dream job through Karya Setu after completing relevant courses on Skill Sarthi. The
+                  integrated approach made all the difference."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full py-12 md:py-24 lg:py-32 border-t">
+        <div class="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
+          <div class="space-y-3">
+            <h2 class="text-3xl font-bold tracking-tighter md:text-4xl/tight">
+              Ready to Accelerate Your Career?
+            </h2>
+            <p class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Join thousands of professionals who have transformed their careers with Job Mitra.
+            </p>
+          </div>
+          <div class="mx-auto w-full max-w-sm space-y-2">
+            <form class="flex flex-col gap-2 min-[400px]:flex-row">
+              <input
+                class="form-input"
+                placeholder="Enter your email"
+                type="email"
+              />
+              <button type="submit" class="button primary w-full min-[400px]:w-auto">
+                Get Started
+              </button>
+            </form>
+            <p class="text-xs text-muted-foreground">
+              By signing up, you agree to our
+              <a href="#" class="underline underline-offset-2">
+                Terms & Conditions
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="w-full border-t py-6 md:py-0">
+      <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-chart-line text-primary"></i>
+          <p class="text-sm font-medium">Job Mitra © <span id="current-year"></span></p>
+        </div>
+        <div class="flex gap-4 md:gap-6">
+          <a href="#" class="text-sm font-medium">
+            Privacy Policy
+          </a>
+          <a href="#" class="text-sm font-medium">
+            Terms of Service
+          </a>
+          <a href="#" class="text-sm font-medium">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- <div class="mobile-menu hidden">
+    <div class="mobile-menu-container">
+      <div class="mobile-menu-header">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-chart-line text-primary"></i>
+          <span class="text-xl font-bold">Job Mitra</span>
+        </div>
+        <button class="mobile-menu-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div> -->
+      <!-- <nav class="mobile-menu-nav">
+        <a href="#" class="mobile-menu-item">Home</a>
+        <a href="#services" class="mobile-menu-item">Services</a>
+        <a href="#features" class="mobile-menu-item">Features</a>
+        <a href="#testimonials" class="mobile-menu-item">Testimonials</a>
+      </nav> -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
